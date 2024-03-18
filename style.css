@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    height: 7%;
+    width: 100vw;
+    border: 2px solid rgb(0, 111, 185);
+    background-color: rgba(231, 220, 220, 0.929);
+}
+body{
+    background-color: #10172b;
+    color: whitesmoke;
+}
+.spl{
+    font-family: "Creepster", system-ui;
+    font-size: 2rem;
+}
+.navbar{
+    height: 100%;
+    width: 100vw;
+    border: 2px solid rgb(0, 111, 185);
+    background-color: rgba(231, 220, 220, 0.929);
+}
+.left-navbar{
+    width: 9vw;
+    justify-content: space-evenly;
+}
+.left-navbar img{
+    width: 25%;
+    border-radius: 80%;
+}
+.left-navbar h2{
+    font-size: 2.5rem;
+}
+.navbar .right-navbar{
+    width: 90vw;
+}
+.right-navbar ul li{
+    width: 10%;
+    text-align: center;
+    list-style: none;
+    font-size: 1.2rem;
+    border: 2px solid rgb(20, 21, 21);
+    border-radius: 10px;
+    margin-right:5px;
+}
+.right-navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* section 1 */
+.section1{
+    height: 100vh;
+    width: 100vw;
+    margin: 2%;
+}
+.left-side{
+    width: 65%;
+    margin-left: 2%;
+}
+.section1{
+    justify-content: space-evenly;
+}
+.section1 .right-side{
+    width: 25%;
+}
+.right-side img{
+    margin-left: 2%;
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+}
+.section1 .left-side .head-text{
+    font-size: 1.8rem;
+}
+.section1 .left-side .plain-text h3{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.section1 .left-side .plain-text span{
+    font-size: 1.4rem;
+}
+
+/* section 2 */
+.section2{
+    height: 130vh;
+    margin: 1.5%;
+}
+.section2 .text-heading{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 2rem;
+    text-align: center;
+    color: #0ef;
+    text-decoration: underline;
+    text-underline-offset: 14px;
+}
+
+/* section 3 */
+.section3{
+    height: 130%;
+    width: 100%;
+}
+.section3 .head_sec3{
+    margin: 4%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #0ef;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+.section3 .box-information th,td{
+    width: 8rem;
+    height: 2rem;
+    padding: 10px;
+    font-weight: 800;
+}
+ /* section 4 */
+ .section4 h1{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 2rem;
+    text-align: center;
+    color: #0ef;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+.section4{
+    height: 135%;
+    width: 100%;
+}
+.section4 .div-body{
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+table,th,td{
+    border: 2px solid #0ef;
+    border-collapse: collapse;
+    color: white;
+    background-color: white;
+}
+th, td{
+    width: 3rem;
+    height: 2rem;
+    padding: 10px;
+    font-weight: 800;
+}
+th{
+    background-color: white;
+    color: black;
+}
+td{
+    color: white;
+    background-color: rgb(18, 18, 18);
+}
+table td{
+    padding-left: 30px;
+}
+table{
+    font-size: 1.5rem;
+}
+
+
+/* section 5, 6 */
+.section5, .section6{
+    height: 100%;
+}
+.section5 span h1{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 3rem;
+}
+.section6 span h1{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 3rem;
+}
+footer{
+    width: 100%;
+}
+footer .foot-text{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 14px;
+    background-color: rgb(24, 213, 206);
+}
+
